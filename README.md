@@ -1,4 +1,4 @@
 # proyecto1
-## HV de Felipe Marín
+HV de Felipe Marín
 
-### Estructura creada en HTMl
+### Estructura creada en HTML
