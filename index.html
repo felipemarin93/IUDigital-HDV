@@ -17,33 +17,46 @@
 
     <head>
 
-    <body>
-
+    <body style="background-color: honeydew">
+        
 
         <h2>
             <div align="center"><img src="Images/foto.PNG"></div>
             <div align="center">Desarrollador Full Stack </div>
             <br>
-            <div align="center"><a href="Page/cursos.html"><input type="button" value="Cursos y Certificaciones"></a></div>
+            <div align="center"><a href="Page/cursos.html"><input type="button" value="Certificaciones"></a>
+            </div>
         </h2>
 
         <h3>
-            
-            <div align="center"><p>Datos de Contacto:</p></div>
-            <div align="center"><p>Correo: felipemaringiraldo@hotmail.com</p></div>
-            <div align="center"><p>celular: 3204043390</p></div>
-            <div align="center"><p>Dirección: Diagonal 50 C N° 46 - 98 Rionegro, Antioquia </p></div>
+
+            <div align="center">
+                <p>Datos de Contacto:</p>
+            </div>
+            <div align="center">
+                <p>Correo: felipemaringiraldo@hotmail.com</p>
+            </div>
+            <div align="center">
+                <p>celular: 3204043390</p>
+            </div>
+            <div align="center">
+                <p>Dirección: Diagonal 50 C N° 46 - 98 Rionegro, Antioquia </p>
+            </div>
         </h3>
- 
+
         <ul>
+            <li><a href="#Perfil">Perfil</a></li>
+            <li><a href="#Educación">Educación</a></li>
             <li><a href="#Habilidades">Mis Habilidades</a></li>
             <li><a href="#Competencias">Mis Competencias</a></li>
-            <li><a href="#Perfil">Perfil Laboral</a></li>
-            <li><a href="#Educación">Educación</a></li>
             <li><a href="#Experiencia">Experiencia Laboral</a></li>
+            <li><a href="#Cursos">Cursos</a></li>
             <br>
         </ul>
-        <h3 id="Perfil">Perfil Laboral <img src="Images/experiencia.PNG" alt="" width="20" height="20" /> </h3>
+
+
+
+        <h3 id="Perfil">Perfil<img src="Images/experiencia.PNG" alt="" width="20" height="20" /> </h3>
         <p>Me considero una persona organizada, puntual, metódica, capaz de resolver problemas en momentos de presión y
             complejidad, soy una persona inquieta que todo el tiempo busco aprender y aplicar los conocimientos en
             beneficio de los procesos de los que participo y de los equipos de trabajo, a nivel personal soy un hombre
@@ -54,17 +67,53 @@
 
 
         <br>
-        <h3 id="Educación">Educación <img src="Images/libro.PNG" alt="" width="20" height="20" /></h3>
+        <div style="text-align:center"></div>
 
-        <h4>
-            <p>Tecnología en Desarrollo de Software - En Curso</p>
-        </h4>
-        <p>Institución Universitaria Digital de Antioquia 4to Semestre</p>
+        <style>
+            table,
+            th,
+            td {
+                border: 3px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <table width="1000" height="150">
 
-        <h4>
-            <p>Tecnología en Administración de Redes de computadores - Graduado</p>
-        </h4>
-        <p>Servicio Nacional de Aprendizaje (SENA) Graduado 2013.</p>
+
+
+
+
+            <h3 id="Educación">Educación <img src="Images/libro.PNG" alt="" width="20" height="20" /></h3>
+            <thead>
+                <tr>
+                    <h1>
+                        <th>Universidad</th>
+                        <th>Carrera</th>
+                        <th>Estado</th>
+                        <th>Fecha Inicio y Fin</th>
+
+                    </h1>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IU Digital de Antioquia</td>
+                    <td>Tecnología en Desarrollo de Software</td>
+                    <td>Cursando 4to Semestre</td>
+                    <td>2020-2023</td>
+
+                </tr>
+                <tr>
+                    <td>Servicio Nacional de Aprendizaje - SENA</td>
+                    <td>Tecnología en Administración de Redes de Computadores</td>
+                    <td>Graduado</td>
+                    <td>2010-2013</td>
+
+                </tr>
+            </tbody>
+
+        </table>
+        </div>
         <br>
 
 
@@ -100,21 +149,22 @@
                 border-collapse: collapse;
             }
         </style>
-        <table width="1400" height="300">
+        <table width="1500" height="300">
 
 
 
 
 
-            <h3 id="Experiencia">Experiencia Laboral <img src="Images/habilidad.PNG" alt="" width="20" height="20" /></h3>
+            <h3 id="Experiencia">Experiencia Laboral <img src="Images/habilidad.PNG" alt="" width="20" height="20" />
+            </h3>
             <thead>
                 <tr>
                     <h1>
-                    <th>Empresa</th>
-                    <th>Cargo</th>
-                    <th>Fecha de Inicio</th>
-                    <th>Fecha de Fin</th>
-                    <th>Funciones</th>
+                        <th>Empresa</th>
+                        <th>Cargo</th>
+                        <th>Fecha de Inicio</th>
+                        <th>Fecha de Fin</th>
+                        <th>Funciones</th>
                     </h1>
                 </tr>
             </thead>
@@ -155,6 +205,22 @@
 
         </table>
         </div>
+
+        <h3 id="Cursos">Cursos <img src="Images/experiencia.PNG" alt="" width="20" height="20" /></h3>
+        <ul>
+            <li>Scrum Foundation Professional Certificate(SFPC)- Certiprof (12 de febrero de 2021)</li>
+            <li>Remote Work and Virtual Collaboration Professional Certificate- Certiprof (10 de febrero de 2021)</li>
+            <li>Curso ITIL® 4 Foundation- Unisys University (22 de enero de 2021)</li>
+            <li>Curso Programación con Pseudocódigo - Udemy (29 de septiembre de 2020)</li>
+            <li>Curso Programación en JavaScript - Básico - Udemy (13 de febrero de 2019)</li>
+            <li>Curso básico de Soporte Técnico – Microsoft Virtual Academy (17 de octubre de 2018)</li>
+            <li>Curso Microsoft Office 365: Applications– Unisys University (2 de diciembre de 2016)</li>
+            <li>Curso Office 365 Services– Unisys University (2 de diciembre de 2016)</li>
+            <li>Curso Redes y seguridad – SENA (15 de mayo de 2013)</li>
+            <li>CCNA Exploration: Network Fundamentals– Cisco (21 de febrero de 2012)</li>
+            <li>IT Essentials: PC Hardware and Software– Cisco (30 de Julio de 2011)</li>
+        </ul>
+
     </body>
 
 
